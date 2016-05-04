@@ -1,0 +1,154 @@
+@media all{header#masthead { width: 240px; position: fixed; left: 0px; top: 0px; bottom: 0px; background-image: url("img/bg_black_90.png"); }}
+
+@media all{article, aside, details, figcaption, figure, footer, header, main, nav, section { display: block; }}
+
+@media all{* { margin: 0px; padding: 0px; }}
+
+@media all{div.site-branding { margin-top: 120px; }}
+
+@media all{html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border: 0px; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; }}
+
+
+@media all{h1, h2, h3, h4, h5, h6 { clear: both; }}@media all{* { margin: 0px; padding: 0px; }}
+
+
+@media all{html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border: 0px; font-family: inherit; font-size: 100%;
+
+
+  font-style: inherit; font-weight: inherit; margin: 0px; padding-left:10px;padding:10px; list-style-type: none;}
+
+
+
+  body {
+
+    margin-right: 20px;
+  margin-left:20px;
+  background-color: #FCFCDC;
+  }
+
+
+  .nav{
+      border:1px solid #ccc;
+      border-width:1px 0;
+      list-style:none;
+      margin:0;
+      padding:0;
+      text-align:center;
+  }
+  .nav li{
+      display:inline;
+  }
+  .nav a{
+      display:inline-block;
+      padding:10px;
+  }
+
+
+.logo {
+
+text-align: center;
+}
+
+  .nav li {
+display: inline-block;
+text-align: center;
+}
+
+
+
+
+
+.nav ul {
+text-align: center;
+}
+
+
+
+
+
+  .menu-main-menu-container{
+  	width: 100%;
+  	float: right;
+  	margin: 0 0 3em 0;
+  	padding: 0;
+  	list-style-type: none; }
+  /*li {
+  	float: left;
+  padding-left: 10px}*/
+
+#wowslider-container1 {
+
+margin-bottom: 10px;
+list-style-type: none;
+
+}
+
+.footer{
+float: left;
+  padding-bottom: 100px;
+  list-style-type: none;
+}
+
+.h2 {
+  display:inline-block;
+margin:0 auto;
+
+}
+.show-on-mobile {
+display: none;
+margin: 0 auto;
+text-align: center;
+}
+
+.show-on-tablet {
+display: none;
+margin: 0 auto;
+text-align: center;
+}
+
+@media (max-width: 959px) {
+.container {
+  width: 600px;
+  height: 200px;
+  background-color: purple;
+}
+
+.box {
+  padding: 2px;
+  font-size: 30px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: white;
+}
+
+.show-on-desktop {
+  display: none;
+}
+
+.show-on-tablet {
+  display: block;
+}
+}
+
+@media (max-width: 600px) {
+.show-on-mobile {
+  display: block;
+}
+
+.show-on-tablet {
+  display: none;
+}
+
+.container {
+  width: 460px;
+  height: 120px;
+  background-color: black;
+}
+
+.box {
+  font-family: courier;
+  font-size: 20px;
+
+}
+
+}
