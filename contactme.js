@@ -20,11 +20,3 @@ alert(data);
 }
 });
 });
-$(document).ready(function() {
-  //add class "highlight" when hovering over row
-  $('ul').addClass ('highlight');
-} function () {
-
-  $(this).removeClass('highlight');
-});
-});
