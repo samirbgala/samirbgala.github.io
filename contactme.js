@@ -6,7 +6,7 @@ var password = $("#password").val();
 var cpassword = $("#cpassword").val();
 if (name == '' || email == '' || password == '' || cpassword == '') {
 alert("Please fill all fields...!!!!!!");
-});
+
 $.post("register.php", {
 name1: name,
 email1: email,
@@ -18,5 +18,13 @@ $("form")[0].reset();
 alert(data);
 });
 }
+});
+});
+$(document).ready(function() {
+  //add class "highlight" when hovering over row
+  $('ul').addClass ('highlight');
+} function () {
+
+  $(this).removeClass('highlight');
 });
 });
